@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ItemList from './item-list.jsx';
+
 export default class App extends Component {
   constructor(){
     super();
@@ -8,7 +10,7 @@ export default class App extends Component {
   render() {
     return(
       <div className='main-content'>
-        <h1>Hello World!</h1>
+        <ItemList></ItemList>
       </div>
     );
   }
