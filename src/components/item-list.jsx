@@ -5,7 +5,6 @@ export default function ItemList(){
   const [ items, setItems ] = useState([]);
 
   useEffect(() => {
-    let srcItems = [];
     Axios.get('https://dallinmoak.devcamp.space/portfolio/portfolio_items', {withCredentials: true} )
     .then(res => {
       if (res.data.portfolio_items){
