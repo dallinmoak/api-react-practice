@@ -1,6 +1,6 @@
-# webpack-basics
+# API react practice
 
-a template for making a bare-bones webpack react app. 
+a react app to practice displaying data from an api source
 
 `npm i` to install node dependencies
 
